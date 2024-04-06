@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cat application</string>
+    <string name="api_url">https://api.thecatapi.com/v1/images/search</string>
+    <string name="cat_loading_error">Error</string>
+</resources>

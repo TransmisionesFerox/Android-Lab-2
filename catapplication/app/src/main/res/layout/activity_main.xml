@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#68000000"
+    >
+
+    <TextView
+        android:id="@+id/logo"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Random Cats Images"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#A85035"
+        android:textSize="34sp" />
+
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="51dp"
+        android:background="#9E4528"
+        android:text="Get Image!"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:scaleType="centerCrop"
+        android:importantForAccessibility="no" />
+
+</RelativeLayout>
